@@ -1,0 +1,241 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  margin-bottom: 60px;
+}
+
+.navbar-brand {
+  color:  #00b300; 
+  font-size: 2.5rem; 
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+  background-color: #66BFBF;
+  height: 70px;
+}
+
+
+h1 {
+  color:  #00b300;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 6%;
+  margin: 100px auto;
+}
+
+a{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+.top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 150px;
+  
+}
+
+.middle-container {
+  padding-top: 90px;
+  margin: 100px 0;
+}
+
+#monumentos {
+  padding-top: 90px;
+}
+
+.jumbotron {
+  position: relative;  
+  background-image: url("../images/catedral.jpg");
+  background-repeat: no-repeat; 
+  background-size: cover; 
+    /*background-position: center;*/ 
+  height: 370px; 
+  opacity: 0.6; 
+  margin-top: 70px; 
+  margin-bottom: 100px; 
+  }
+
+  .jumbotron p {
+    color: white;
+    text-align: center;
+    text-shadow: 3px 3px 8px #000000;
+    font-size: 50px;
+      }
+
+  #plazas   {
+    position: relative;  
+    background-image: url("../images/plazas.jpg");
+    background-repeat: no-repeat; 
+    background-size: cover ; 
+      /*background-position: center; */
+    height: 370px; 
+    opacity: 0.6; 
+    margin-top: 70px; 
+    margin-bottom: 100px; 
+  }
+
+  #mercado   {
+    position: relative;  
+    background-image: url("https://www.santiagoturismo.com/files/singlev2/2015/03/mercado1.jpg");
+    background-repeat: no-repeat; 
+    background-size: cover; 
+      /*background-position: center;*/ 
+    height: 370px; 
+    opacity: 0.6; 
+    margin-top: 70px; 
+    margin-bottom: 100px; 
+  }
+
+  #hostal   {
+    position: relative;  
+    background-image: url("../images/reyescatolicos.jpg");
+    background-repeat: no-repeat; 
+    background-size: 100% 100%; 
+      /*background-position: center;*/ 
+    height: 370px; 
+    opacity: 0.6; 
+    margin-top: 70px; 
+    margin-bottom: 100px; 
+  }
+
+  #buildings img {
+    
+    width:  400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+
+/*.botafumeiro-img {
+    width: 100%;
+   
+  }*/
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.profile img {
+  width: 230px;
+  height: 300px;
+  border-radius: 50%;
+  border: 10px solid  #00b300;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;  
+}
+
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.church {
+  width: 20%;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 200px;
+  top: 90px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 250px;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+.footer {  
+  background-color: #66BFBF;
+  height: 50px;
+}
+
+.apostol-img {
+  width: 70%;
+  float: left;
+  margin-right: 30px;
+}
+
+.botafumeiro-img {
+  width: 50%;
+  float: right;
+  margin-left: 30px;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
